@@ -1,3 +1,5 @@
+// check readme file for mor details.
+
 const sql = require('mssql');
 
 const config = {
