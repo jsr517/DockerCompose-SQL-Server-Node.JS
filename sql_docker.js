@@ -1,4 +1,4 @@
-// check readme file for mor details.
+// check readme file for more details.
 
 const sql = require('mssql');
 
