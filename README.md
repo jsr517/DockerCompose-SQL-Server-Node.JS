@@ -9,7 +9,7 @@ docker pull mcr.microsoft.com/mssql/server:latest
 Run the following command to start a new container and specify the environment variables for the SQL Server sa password and accept the EULA:
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=your_password" -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server:latest
 
-Now, you can use Node.js and the mssql package to connect to the SQL Server instance running in the container.
+Now, you can use Node.js and the mssql package to connect to the SQL Server instance running in the container. Make sure you have NodeJS runtime installed on your machine.
 
 Please check code files for more details.
 
